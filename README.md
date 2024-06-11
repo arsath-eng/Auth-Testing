@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Overview
+
+# Auth.js v5 
+
+This Next.js project was bootstrapped with `create-next-app`.
+
+## Overview
+
 This course provides a comprehensive guide to implementing authentication in your applications using Auth.js v5. The course covers various aspects, including setting up Next.js with MongoDB, integrating Google Sign-In, and more.
 
-Prerequisites
-Node.js
-npm or yarn
-MongoDB
+## Prerequisites
 
-Installation
-1.Clone the repository:
-https://github.com/arsath-eng/Auth-Testing.git
+- Node.js
+- npm or yarn
+- MongoDB
 
-2.Navigate to the project directory:
-cd auth-project
+## Installation
 
-3.Install dependencies:
-  npm install
-      OR
-  yarn install
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/arsath-eng/Auth-Testing.git
+   ```
 
-4.Configuration:
-  Create a '.env' file in the root directory and add the necessary environment variables.
-  MONGO_URI ='mongodb+srv:...........'
-AUTH_SECRET=..........
-GITHUB_CLIENT_ID=............
-GITHUB_CLIENT_SECRET=................
-GOOGLE_CLIENT_ID=................
-GOOGLE_CLIENT_SECRET=...............
+2. **Navigate to the project directory:**
+   ```bash
+   cd auth-project
+   ```
 
-5.Folder Struture
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
+4. **Configuration:**
+   Create a `.env` file in the root directory and add the necessary environment variables:
+   ```
+   MONGO_URI='mongodb+srv:...........'
+   AUTH_SECRET='..........'
+   GITHUB_CLIENT_ID='............'
+   GITHUB_CLIENT_SECRET='................'
+   GOOGLE_CLIENT_ID='................'
+   GOOGLE_CLIENT_SECRET='...............'
+   ```
+
+## Folder Structure
+
+```
 AUTH-PROJECT/
 ├── .next/
 ├── action/
@@ -58,6 +76,17 @@ AUTH-PROJECT/
 ├── README.md
 ├── tailwind.config.ts
 └── tsconfig.json
+```
 
-6.Run the project
-  npm run dev
+## Running the Project
+
+1. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   or
+   ```bash
+   yarn dev
+   ```
+
+
