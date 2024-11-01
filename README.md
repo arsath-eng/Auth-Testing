@@ -131,9 +131,17 @@ http://localhost:3000
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="screenshot/1-admin.png" alt="Project Banner" width="800"/>
+  <img src="public/1-admin.png" alt="admin" width="800"/>
 </p>
-
+<p align="center">
+  <img src="public/register.png" alt="register" width="800"/>
+</p>
+<p align="center">
+  <img src="public/user.png" alt="user" width="800"/>
+</p>
+<p align="center">
+  <img src="public/mongodb.png" alt="mongodb" width="800"/>
+</p>
 ```
 
 ## 🤝 Contributing
@@ -154,6 +162,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ by [Arsath]
+Made with ❤️ by Arsath
 
 </div>
